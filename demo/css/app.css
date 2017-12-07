@@ -1,0 +1,16 @@
+/*!
+ * jquery-counter v1
+ * (c) 2017-2017 King Jherold
+ * Released under the MIT License.
+ */
+
+.counter__label {
+    display: block;
+    padding: 15px 10px 5px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.counter__field {
+	width: 99%;
+    padding: 7px 0;
+}

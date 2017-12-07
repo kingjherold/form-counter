@@ -2,16 +2,24 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Jquery Confirm</title>
+	<title>Jquery Counter</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link rel="stylesheet" href="css/app.css">
 	<link rel="stylesheet" href="css/jquery-counter.css">
 </head>
 <body>
 	
-	<form>
-		<input type="text">
-		<textarea></textarea>
-		<button>Submit</button>
+	<form method="post">
+		<div>
+			<input type="text" name="input" class="counter">
+		</div>
+		<div>
+			<input type="number" name="input" class="counter">
+		</div>
+		<div>
+			<textarea name="textarea" class="counter"></textarea>
+		</div>
+		<button type="submit">Submit</button>
 	</form>
 
 	<script src="js/jquery-3.2.1.js"></script>
